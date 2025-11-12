@@ -101,8 +101,9 @@ var WildRydes = window.WildRydes || {};
     }
 
     function toUsername(email) {
-        return email.replace('@', '-at-');
+        return email;
     }
+
 
     /*
      *  Event Handlers
@@ -171,3 +172,4 @@ var WildRydes = window.WildRydes || {};
         );
     }
 }(jQuery));
+
